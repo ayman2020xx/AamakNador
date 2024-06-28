@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Page</title>
+    <link rel="stylesheet" href="register.css">
+</head>
+<body>
+    <div class="container">
+        <div class="register-box">
+            <h2>Se connecter</h2>
+            <form action="/register" method="POST">
+                <div class="input-group">
+                    <label for="username">&nbsp;&nbsp;Nom d'utilisateur</label>
+                    <input type="text" id="username" name="username" required>
+                </div>
+                <div class="input-group">
+                    <label for="email">&nbsp;&nbsp;Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="input-group">
+                    <label for="password">&nbsp;&nbsp;Mot de passe</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <div class="input-group">
+                    <label for="confirm-password">&nbsp;&nbsp;Confirmez le mot de passe</label>
+                    <input type="password" id="confirm-password" name="confirm-password" required>
+                </div>
+                <button type="submit" class="register-button">Se connecter</button>
+            </form>
+            <p class="signin-text">Already have an account? <a href="sign-in.html" class="signin-link">S'inscrire</a></p>
+        </div>
+    </div>
+
+</body>
+</html>

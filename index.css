@@ -1,0 +1,355 @@
+/* Light Theme (Default) */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #000;
+    transition: 0.3s;
+}
+
+header {
+    background-color: #073ca5;
+    color: white;
+    padding: 2.5em 0;
+    transition: 0.3s;
+}
+
+svg{
+    width: 15px;
+    height: 15px;
+    display: inline;
+}
+
+/* sign in */
+.Sign-in {
+    background-color: #ffffff; /* blue background */
+    border: none; /* Remove default border */
+    color: #007bff; /* White text */
+    padding: 12px 15px; /* Padding */
+    text-align: right; /* Center text */
+    text-decoration: none; /* Remove underline from text */
+    display: inline-block; /* Display as inline-block */
+    font-size: 16px; /* Font size */
+    margin: 4px 2px; /* Margin */
+    cursor: pointer; /* Pointer cursor on hover */
+    border-radius: 4px; /* Rounded corners */
+    transition: background-color 0.1s, box-shadow 0.1s; /* Smooth transitions */
+}
+
+/* Hover state */
+.Sign-in:hover {
+    background-color: #d8d8d8; /* Darker blue background */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.123); /* Add shadow on hover */
+}
+
+/* Active state */
+.Sign-in:active {
+    background-color: #b2b2b2; /* Even darker blue background */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.123); /* Slightly smaller shadow */
+}
+/* sign in */
+
+
+
+nav {
+
+    display: inline;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: inline;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+    display: inline;
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.tkhrbi9:hover {
+    text-decoration: underline;
+}
+
+.title{
+    display: inline;
+    text-align: left;
+}
+
+section {
+    padding: 2em;
+    margin: 2em 0;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+h2 {
+    color: #0073e6;
+    transition: 0.3s;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin: 10px 0 5px;
+}
+
+input, textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 200px;
+    transition: 0.3s;
+}
+
+.botona {
+    padding: 10px;
+    background: #0073e6;
+    color: white;
+    border: none;
+    border-radius: 4px; 
+    cursor: pointer;
+    transition: 0.3s; 
+    display: inline;
+    text-align: right;
+}
+
+
+
+footer {
+    text-align: center;
+    padding: 2.5em 0;
+    background-color: #073ca5;
+    color: white;
+    transition: 0.3s;
+}
+
+.botona#dark-mode-toggle {
+    background-color: #444;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 200px;
+}
+
+/* Dark Theme */
+body.dark-mode {
+    background-color: #2d2c2c;
+    color: #e0e0e0;
+    transition: 0.3s;
+}
+
+header.dark-mode {
+    background-color: #1e1e1e;
+    transition: 0.3s;
+}
+
+nav ul li a.dark-mode {
+    color: #e0e0e0;
+    transition: 0.3s;
+}
+
+section.dark-mode {
+    background-color: #262626;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.045);
+    transition: 0.3s;
+}
+
+h2.dark-mode {
+    color: #80d8ff;
+    transition: 0.3s;
+}
+
+.botona#dark-mode-toggle.dark-mode {
+    background-color: #0056ac;
+    color: #fffcfc;
+    transition: 0.3s;
+    border-radius: 200px; 
+}
+
+footer.dark-mode {
+    background-color: #1e1e1e;
+    transition: 0.3s;
+}
+
+.poster-container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.poster-image {
+    width: 100%;
+    height: 400px;
+}
+
+.poster-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.poster-text {
+    text-align: center;
+}
+
+.poster-text h1 {
+    font-size: 3rem;
+    margin: 0 0 20px;
+    color: #fff;
+}
+
+.poster-text p {
+    font-size: 1.5rem;
+    margin: 0 0 20px;
+    color: #fff;
+}
+
+.poster-button {
+    font-size: 1.2rem;
+    color: #fff;
+    background-color: #ab8c00;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.poster-button.dark-mode {
+    background-color: #7c6500;
+    transition: 0.3s;
+}
+
+.poster-button:hover {
+    background-color: #8e7400;
+}
+
+.poster-button:hover.dark-mode {
+    background-color: #6b5700;
+}
+
+.flogo{
+    width: 170px;
+    height: 85px;
+    align-items: start;
+}
+
+.vlogo{
+    width: 35px;
+    height: 35px;
+    text-align: right;
+}
+
+.vid{
+    width: 40%;
+    height: auto;
+    margin-top: 10px;
+    border: 2px solid #073ca5;
+    border-radius: 8px;
+    text-align: center;
+}
+
+
+
+.bada{
+    font-size:1.3em;
+    text-align: center;
+}
+
+.bada2{
+    font-size:1.3em;
+    display: inline;
+}
+
+.pase{
+    display: inline;
+}
+
+
+
+
+
+
+
+.p-image{
+    width: 150px; 
+    height: 150px;
+    text-align: center; 
+    margin: 0 auto;
+    display: block;
+    border-radius: 40px;
+    display: inline;
+    transition: 0.2s;
+    
+}
+.Tcharana{
+    display: inline;
+    text-align: center;
+}
+
+.co{
+    display: inline;
+}
+
+.p-image:hover{
+    width: 180px; 
+    height: 180px;
+}
+
+main {
+    padding: 2em;
+}
+
+
+
+
+
+.poster-blabla {
+
+
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.poster-te {
+    text-align: center;
+}
+
+.poster-text h1 {
+    font-size: 3rem;
+    margin: 0 0 20px;
+    color: #fff;
+}
+
+

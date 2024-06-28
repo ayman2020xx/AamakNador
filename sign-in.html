@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In Page</title>
+    <link rel="stylesheet" href="sign-in.css">
+</head>
+<body>
+    <div class="container">
+        <div class="signin-box">
+            <h2>S'inscrire</h2>
+            <form action="/login" method="POST">
+                <div class="input-group">
+                    <label for="username">&nbsp;&nbsp;Nom d'utilisateur</label>
+                    <input type="text" id="username" name="username" required>
+                </div>
+                <div class="input-group">
+                    <label for="password">&nbsp;&nbsp;Mot de passe</label>
+                    <input type="password" id="password" name="password" required>
+                <button class="forgot-password-button" onclick="location.href='Forgot-Password.html'">Mot de passe oublié?</button>
+                </div>
+                <button type="submit" class="sign-in-button">S'inscrire</button>
+            </form>
+            <p class="register-text">Vous n'avez pas de compte ? <a href="register.html" class="register-link">Se connecter</a></p>
+        </div>
+    </div>
+</body>
+</html>

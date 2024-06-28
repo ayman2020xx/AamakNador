@@ -1,0 +1,227 @@
+/* Light Theme (Default) */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #073ca5;
+    color: #000;
+    transition: 0.3s;
+}
+
+header {
+    background-color: #f4f4f4;
+    color: white;
+    padding: 1em 0;
+    transition: 0.3s;
+}
+
+.title{
+    color: #000;
+    text-align: center;
+}
+
+nav {
+    display: inline;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: inline;
+    
+}
+
+.x{
+    display: inline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.poster-container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.poster-image {
+    width: 100%;
+    height: 100%;
+}
+
+.poster-overlay {
+    width: 98%;
+    margin: 10px;
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+    border-radius: 20px;
+    cursor: pointer;
+    padding-top: 10px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25),
+    0 10px 10px rgba(0,0,0,0.22);
+    transition: .4s;
+    background: #ffbf00;
+}
+
+.poster-text {
+    text-align: center;
+    color: #000;
+    display: inline;
+}
+
+.poster-text h1 {
+    font-size: 3rem;
+    margin: 0 0 20px;
+    color: #000000;
+}
+
+
+
+.poster-text p {
+    font-size: 1.5rem;
+    margin: 0 0 20px;
+    color: #fff;
+}
+
+.poster-button {
+    font-size: 1.2rem;
+    color: #fff;
+    background-color: #0073e6;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.poster-button:hover {
+    background-color: #005bb5;
+}
+
+.nom{
+    border-radius: 5px;
+    color: #000;
+    background: #fff; 
+    border: #ffffff;
+    height: 40px;
+    width: 360px;
+    text-align: center;
+    font-size: 1.3rem;
+    display: inline;
+}
+
+.blad{
+  width: 113px;
+  border-radius: 10px;
+  height: 40px;
+  text-align: center;
+  background: #00000000;
+  font-size: 0.68rem;
+}
+
+.tel{
+    font-size: 0.68rem;
+    width: 247px;
+}
+
+.date{
+    text-align: center;
+    width: 120px;
+}
+
+.sahm{
+    display: inline;
+    color:#ffffff;
+    text-decoration: none;
+    font-size: 40px;
+}
+
+.sahm:hover{
+    color: rgb(188, 13, 0);
+}
+
+.bolo{
+    text-align: center;
+}
+
+.range{
+    width: 360px;
+    background: #fff; 
+    border: #000000;
+}
+
+.number{
+    border-radius: 5px;
+    color: #000;
+    background: #fff; 
+    border: #ffffff;
+    height: 40px;
+    width: 360px;
+    text-align: center;
+    font-size: 1.3rem;
+    display: inline;
+}
+
+
+.slider {
+    -webkit-appearance: none;
+    width: 360px;
+    height: 10px;
+    border-radius: 5px;  
+    background: #b9b9b9;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+  
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%; 
+    background: #000000;
+    cursor: pointer;
+}
+  
+/* sign in */
+.Reserve {
+    background-color: #ffffff; /* blue background */
+    border: none; /* Remove default border */
+    color: #007bff; /* White text */
+    padding: 12px 35px; /* Padding */
+    text-align: right; /* Center text */
+    text-decoration: none; /* Remove underline from text */
+    display: inline-block; /* Display as inline-block */
+    font-size: 16px; /* Font size */
+    margin: 4px 2px; /* Margin */
+    cursor: pointer; /* Pointer cursor on hover */
+    border-radius: 4px; /* Rounded corners */
+    transition: background-color 0.1s, box-shadow 0.1s; /* Smooth transitions */
+}
+
+/* Hover state */
+.Reserve:hover {
+    background-color: #d8d8d8; /* Darker blue background */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.123); /* Add shadow on hover */
+}
+
+/* Active state */
+.Reserve:active {
+    background-color: #b2b2b2; /* Even darker blue background */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.123); /* Slightly smaller shadow */
+}
+/* sign in */
+
+.zama{
+    font-size: 1.2rem;
+}
